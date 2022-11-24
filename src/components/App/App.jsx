@@ -1,10 +1,10 @@
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
 import { Container } from './App.styled';
-import user from '../../user'
-import data from '../../data'
-import friends from '../../friends'
-import transactions from '../../transactions'
+import user from 'data/user'
+import data from 'data/data'
+import friends from 'data/friends'
+import transactions from 'data/transactions'
 import { FriendList } from 'components/FriendList/FriendList';
 import { TransactionsHistory } from 'components/TransactionsHistory/TransactionsHistory';
 
